@@ -6,7 +6,8 @@ import math
 import os
 
 # Getting the Data
-path = os.getcwd() + "\Logistic Regression\Data\Training.csv"
+CWD = os.getcwd()
+path = CWD + "\Logistic Regression\Data\Training.csv"
 ColNames = ['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width', 'Class']
 train = pd.read_csv(path, names=ColNames)
 Y = train.Class.tolist()
@@ -52,5 +53,18 @@ for k in range(0,y.shape[1]):
      theta[:,k] = descent(X,y[:,k],theta[:,k],lamb,alpha,iter).T
 
 
+# Testing
 
+path = CWD + "\Logistic Regression\Data\Testing.csv"
+ColNames = ['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width', 'Class']
+train = pd.read_csv(path, names=ColNames)
+Y = train.Class.tolist()
+X = np.genfromtxt(path, delimiter=',')
+
+X = X[:, :-1]
+m = X.shape[0]
+n = X.shape[1] + 1
+X = np.c_[np.ones(m), X]
+X = np.matrix(X)
+Result = np.hstack((np.matrix(list(map(lambda x: int(x == "Iris-setosa"), Y))).T, np.matrix(list(map(lambda x: int(x == "Iris-versicolor"), Y))).T,np.matrix(list(map(lambda x: int(x == "Iris-virginica"), Y))).T))
 
