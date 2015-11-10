@@ -21,8 +21,8 @@ X = np.c_[np.ones(m), X]
 X = np.matrix(X)
 y = np.hstack((np.matrix(list(map(lambda x: int(x == "Iris-setosa"), Y))).T, np.matrix(list(map(lambda x: int(x == "Iris-versicolor"), Y))).T,np.matrix(list(map(lambda x: int(x == "Iris-virginica"), Y))).T))
 theta = np.zeros((n, 3))
-lamb = 1
-alpha = 1
+lamb = .0001
+alpha = .15
 iter = 100
 
 
@@ -66,5 +66,19 @@ m = X.shape[0]
 n = X.shape[1] + 1
 X = np.c_[np.ones(m), X]
 X = np.matrix(X)
-Result = np.hstack((np.matrix(list(map(lambda x: int(x == "Iris-setosa"), Y))).T, np.matrix(list(map(lambda x: int(x == "Iris-versicolor"), Y))).T,np.matrix(list(map(lambda x: int(x == "Iris-virginica"), Y))).T))
+Solution = np.hstack((np.matrix(list(map(lambda x: int(x == "Iris-setosa"), Y))).T, np.matrix(list(map(lambda x: int(x == "Iris-versicolor"), Y))).T,np.matrix(list(map(lambda x: int(x == "Iris-virginica"), Y))).T))
+Solution = np.argmax(Solution,axis=1)
+
+Y = sigmoid(X.dot(theta))
+Result = (np.argmax(Y,axis=1))
+
+Comparison = np.concatenate((Result,Solution),axis=1)
+
+print("The Outcome is :\n",Comparison)
+
+Accuracy = np.sum(np.matrix(list(map(lambda x,x1: int(x == x1), Solution, Result)))) / 75 * 100
+
+print("\n Accuracy is : ",Accuracy,"%")
+
+
 
