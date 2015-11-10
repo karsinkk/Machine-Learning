@@ -24,11 +24,13 @@ lamb = 1
 
 
 # Regularization Functions
-
 sigmoid = np.vectorize(lambda x: 1 / (1 + math.exp(-x)))
 
-def cost(X, y, theta, lamb):
-     j = -(1 / m) * ((y.dot(math.log10(sigmoid(X.dot(theta))))) + ((1 - y).dot(math.log10(sigmoid(1 - (X.dot(theta))))))) + (lamb / 2 * m) * (theta.dot(theta.T))
+log10 = np.vectorize(math.log10)
+
+def cost(_x, _y, _theta, _lamb):
+     j = -(1 / m) * (_y.T.dot(log10(sigmoid(_x.dot(_theta.T))).T) + ((1 - _y).T.dot(log10(sigmoid(1 - (_x.dot(_theta.T)))).T))) + (_lamb / 2 * m) * (_theta.dot(_theta.T))
      return j
 
 print(cost(X,y[:,0],theta[:,0],lamb))
+
