@@ -55,7 +55,7 @@ for k in range(0,y.shape[1]):
 
 # Testing
 
-path = CWD + "\Logistic Regression\Data\Testing.csv"
+path = CWD + "\Logistic Regression\Data\Iris.csv"
 ColNames = ['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width', 'Class']
 train = pd.read_csv(path, names=ColNames)
 Y = train.Class.tolist()
@@ -75,9 +75,9 @@ Result = (np.argmax(Y,axis=1))
 # Result Analysis
 Comparison = np.concatenate((Result,Solution),axis=1)
 
-print("The Outcome is :\n",Comparison)
+print("The Outcome is :\n",Comparison,"\n",Result.size)
 
-Accuracy = np.sum(np.matrix(list(map(lambda x,x1: int(x == x1), Solution, Result)))) / 75 * 100
+Accuracy = np.sum(np.matrix(list(map(lambda x,x1: int(x == x1), Solution, Result)))) / Result.size * 100
 
 print("\n Accuracy is : ",Accuracy,"%")
 
