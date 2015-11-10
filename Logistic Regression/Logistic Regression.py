@@ -72,6 +72,7 @@ Solution = np.argmax(Solution,axis=1)
 Y = sigmoid(X.dot(theta))
 Result = (np.argmax(Y,axis=1))
 
+# Result Analysis
 Comparison = np.concatenate((Result,Solution),axis=1)
 
 print("The Outcome is :\n",Comparison)
