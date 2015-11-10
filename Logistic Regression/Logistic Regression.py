@@ -5,24 +5,29 @@ import pandas as pd
 import math
 import os
 
-CWD = os.getcwd()
-
 # Getting the Data
-path = CWD + "\Logistic Regression\Data\Training.csv"
+path = os.getcwd() + "\Logistic Regression\Data\Training.csv"
 ColNames = ['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width', 'Class']
 train = pd.read_csv(path, names=ColNames)
 Y = train.Class.tolist()
 X = np.genfromtxt(path, delimiter=',')
+
+# Cleaning the Data and generating params
 X = X[:, :-1]
+m = X.shape[0]
+n = X.shape[1] + 1
+X = np.c_[np.ones(m),X]
+X = np.matrix(X)
+y = np.hstack((np.matrix(list(map(lambda x: int(x == "Iris-setosa"), Y))).T, np.matrix(list(map(lambda x: int(x == "Iris-versicolor"), Y))).T,np.matrix(list(map(lambda x: int(x == "Iris-virginica"), Y))).T))
+theta = np.zeros((n,3))
+lamb = 1
 
-theta = np.zeros(X.shape[1] + 1)
-y1 = list(map(lambda x: int(x == "Iris-setosa"), Y))
-y1 = np.array(y1)
-y2 = list(map(lambda x: int(x == "Iris-versicolor"), Y))
-y2 = np.array(y2)
-y3 = list(map(lambda x: int(x == "Iris-virginica"), Y))
-y3 = np.array(y3)
-
-
-def signum(x):
+# Regularization Functions
+def sigmoid(x):
     return 1 / (1 + math.exp(-x))
+
+def cost(X,y,theta,lamb):
+     j = -(1 / m) * ((y.dot(math.log10(sigmoid(X.dot(theta))))) + ((1 - y).dot(math.log10(sigmoid(1 - (X.dot(theta))))))) + (lamb / 2 * m) * (theta.dot(np.transpose(theta)))
+     return j
+
+print(cost(X,y,theta,lamb))
