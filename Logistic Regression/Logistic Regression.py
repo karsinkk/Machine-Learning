@@ -16,18 +16,19 @@ X = np.genfromtxt(path, delimiter=',')
 X = X[:, :-1]
 m = X.shape[0]
 n = X.shape[1] + 1
-X = np.c_[np.ones(m),X]
+X = np.c_[np.ones(m), X]
 X = np.matrix(X)
 y = np.hstack((np.matrix(list(map(lambda x: int(x == "Iris-setosa"), Y))).T, np.matrix(list(map(lambda x: int(x == "Iris-versicolor"), Y))).T,np.matrix(list(map(lambda x: int(x == "Iris-virginica"), Y))).T))
-theta = np.zeros((n,3))
+theta = np.zeros((n, 3))
 lamb = 1
 
-# Regularization Functions
-def sigmoid(x):
-    return 1 / (1 + math.exp(-x))
 
-def cost(X,y,theta,lamb):
-     j = -(1 / m) * ((y.dot(math.log10(sigmoid(X.dot(theta))))) + ((1 - y).dot(math.log10(sigmoid(1 - (X.dot(theta))))))) + (lamb / 2 * m) * (theta.dot(np.transpose(theta)))
+# Regularization Functions
+
+sigmoid = np.vectorize(lambda x: 1 / (1 + math.exp(-x)))
+
+def cost(X, y, theta, lamb):
+     j = -(1 / m) * ((y.dot(math.log10(sigmoid(X.dot(theta))))) + ((1 - y).dot(math.log10(sigmoid(1 - (X.dot(theta))))))) + (lamb / 2 * m) * (theta.dot(theta.T))
      return j
 
-print(cost(X,y,theta,lamb))
+print(cost(X,y[:,0],theta[:,0],lamb))
