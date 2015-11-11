@@ -57,8 +57,8 @@ for k in range(0,y.shape[1]):
 
 path = CWD + "\Logistic Regression\Data\Iris.csv"
 ColNames = ['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width', 'Class']
-train = pd.read_csv(path, names=ColNames)
-Y = train.Class.tolist()
+test = pd.read_csv(path, names=ColNames)
+Y = test.Class.tolist()
 X = np.genfromtxt(path, delimiter=',')
 
 X = X[:, :-1]
