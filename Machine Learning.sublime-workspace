@@ -1,0 +1,479 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"da",
+				"databaseName"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"prod",
+				"product_load"
+			],
+			[
+				"data",
+				"dataResponse"
+			],
+			[
+				"co",
+				"collections"
+			],
+			[
+				"db",
+				"dbconnection"
+			],
+			[
+				"n",
+				"new"
+			],
+			[
+				"conne",
+				"Connection"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"click",
+				"click_counter"
+			],
+			[
+				"get",
+				"getMinutes"
+			],
+			[
+				"ge",
+				"getMinutes"
+			],
+			[
+				"w",
+				"write"
+			],
+			[
+				"err",
+				"errorMessage"
+			],
+			[
+				"a",
+				"arr2"
+			],
+			[
+				"img",
+				"img2"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"mysqli_connect_",
+				"mysqli_connect_errno"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"fw",
+				"fw_lines"
+			],
+			[
+				"r",
+				"request"
+			],
+			[
+				"rand",
+				"randrange"
+			],
+			[
+				"pr",
+				"print"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Iris/Logistic Regression.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/Python 3.4 .sublime-build",
+	"command_palette":
+	{
+		"height": 35.0,
+		"selected_items":
+		[
+			[
+				"sy pyt	",
+				"Set Syntax: Python"
+			],
+			[
+				"sy ba	",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"sy x	",
+				"Set Syntax: XML"
+			],
+			[
+				"sy js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sys js",
+				"Set Syntax: Java Server Page (JSP)"
+			],
+			[
+				"syjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sy cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"sy ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"syspjs",
+				"Set Syntax: Java Server Page (JSP)"
+			],
+			[
+				"syc",
+				"Set Syntax: C++"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"html ",
+				"Snippet: html"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"",
+				"Snippet: Anonymous Function"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 56.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/B/Python SandBox/Machine Learning/MNIST/test.csv",
+		"/B/Python SandBox/Logistic Regression/Logistic Regression.py",
+		"/B/Tutorials/Machine Learning/Coursera-Assignments/machine-learning-coursera-master/Week 7 Assignments/Support Vector Machines/mlclass-ex6/getVocabList.m",
+		"/B/Tutorials/Machine Learning/Coursera-Assignments/machine-learning-coursera-master/Week 7 Assignments/Support Vector Machines/mlclass-ex6/processEmail.m",
+		"/B/Tutorials/Machine Learning/Coursera-Assignments/machine-learning-coursera-master/Week 7 Assignments/Support Vector Machines/mlclass-ex6/emailFeatures.m",
+		"/C/Program Files/AMD/CIM/Reports/Report.xml",
+		"/C/Users/Karsin/test.py",
+		"/C/Anaconda/Scripts/anaconda.bat",
+		"/C/Users/Karsin/Desktop/CmdHereAsAdmin.inf",
+		"/B/Python SandBox/Test - 1/environment.yml",
+		"/C/Users/Karsin/AppData/Roaming/Sublime Text 2/Packages/User/Python 3.4 .sublime-build",
+		"/B/Tutorials/Machine Learning/Data Sets/Iris/iris.data",
+		"/B/Tutorials/Machine Learning/Data Sets/Iris/Training.csv",
+		"/B/Tutorials/Machine Learning/Data Sets/Iris/iris.names",
+		"/B/Tutorials/Machine Learning/Data Sets/Iris/Testing.csv",
+		"/C/Users/Karsin/VirtualBox VMs/vagrant-puppet-vm_bigtop1_1448575749460_60057/vagrant-puppet-vm_bigtop1_1448575749460_60057.vbox-prev",
+		"/C/cygwin/home/Karsin/bigtop/bigtop-deploy/vm/vagrant-puppet-vm/Vagrantfile",
+		"/C/cygwin/home/Karsin/bigtop/bigtop-deploy/vm/vagrant-puppet-vm/vagrantconfig.yaml",
+		"/B/SandBox/ReactJS/react-flux-simple-app/gulpfile.js",
+		"/B/Festember/festember.com/15/cms/modules/form/validation.js",
+		"/B/Festember/festember.com/15/cms/templates/f15_inner/script.js",
+		"/B/SandBox/ExpressTest/Test/app.js",
+		"/B/SandBox/VSCode/app.js",
+		"/B/SandBox/VSCode/package.json",
+		"/B/Program Files/Semnox Solutions/Parafait/Application/Scripts/CardInventory.sql",
+		"/B/SandBox/ReactJS/react-flux-simple-app/package.json",
+		"/B/SandBox/ReactJS/react-flux-simple-app/src/index.html",
+		"/B/SandBox/ReactJS/react-flux-simple-app/.gitignore",
+		"/B/SandBox/ReactJS/react-flux-simple-app/src/js/main.js",
+		"/B/SandBox/test.cpp",
+		"/C/Users/Karsin/Downloads/angular.min.js",
+		"/B/SandBox/PHP MySQL Snippet.php",
+		"/B/SandBox/Dev/mean.io/mean.io/server.js",
+		"/B/youtube-dl-node/dl.js",
+		"/B/SandBox/Webmail.py",
+		"/B/SandBox/Chat/interactive-background/index.html",
+		"/B/SandBox/Chat/interactive-background/index5.html",
+		"/B/SandBox/Chat/chat/public/index.html",
+		"/B/SandBox/Chat/Rocket.Chat-master/app.json",
+		"/B/SandBox/Chat/chat/node_modules/socket.io/index.js",
+		"/B/SandBox/Chat/Rocket.Chat-master/client/stylesheets/base.less",
+		"/B/SandBox/Chat/Rocket.Chat-master/client/stylesheets/animation.css",
+		"/B/SandBox/Chat/chat/package.json",
+		"/B/SandBox/Chat/chat/index.js",
+		"/B/SandBox/Chat/Rocket.Chat-master/private/splash/android-land-hdpi.png",
+		"/B/Mayan/ajax.js",
+		"/B/Mayan/ajax",
+		"/B/SandBox/New folder/3DGridEffect/css/demo.css",
+		"/B/SandBox/New folder/trail2/css/demo.css",
+		"/B/Website Templates/html5up-landed/index.html",
+		"/B/Website Templates/eCommerce/wootique/index.php",
+		"/C/Users/Karsin/AppData/Roaming/Sublime Text 2/Packages/User/Node.sublime-build",
+		"/B/SandBox/New folder/trail2/css/component.css",
+		"/B/SandBox/New folder/3DGridEffect/css/component.css",
+		"/B/SandBox/New folder/3DGridEffect/index.html",
+		"/B/SandBox/New folder/trail2/index2.html",
+		"/C/Users/Karsin/WebstormProjects/NodeCMS/models/index.js",
+		"/C/Users/Karsin/WebstormProjects/NodeCMS/models/articles.js",
+		"/B/SandBox/New folder/3DGridEffect/index2.html",
+		"/B/Products.json",
+		"/B/cakesmine/index2.html",
+		"/B/SandBox/test.js",
+		"/C/Users/Karsin/WebstormProjects/NodeCMS/routes/index.js",
+		"/C/Users/Karsin/WebstormProjects/NodeCMS/app.js",
+		"/C/Users/Karsin/WebstormProjects/NodeCMS/views/includes/menu.jade",
+		"/C/Users/Karsin/WebstormProjects/NodeCMS/views/admin.jade",
+		"/C/Users/Karsin/WebstormProjects/NodeCMS/views/index.jade",
+		"/C/Users/Karsin/WebstormProjects/NodeCMS/public/css/style.css",
+		"/C/Users/Karsin/WebstormProjects/NodeCMS/public/css/style.styl",
+		"/B/SandBox/practicalnode-master/ch6/password/routes/index.js",
+		"/B/SandBox/ExpressTest/Test/node_modules/mongo-express/app.js",
+		"/B/SandBox/practicalnode-master/ch6/password/routes/user.js",
+		"/B/SandBox/practicalnode-master/ch6/password/views/login.jade",
+		"/B/SandBox/practicalnode-master/ch6/password/routes/article.js",
+		"/B/SandBox/practicalnode-master/ch6/password/views/admin.jade",
+		"/B/SandBox/practicalnode-master/ch6/password/views/article.jade",
+		"/B/SandBox/practicalnode-master/ch6/password/views/index.jade",
+		"/B/SandBox/practicalnode-master/ch7/blog-express/db/seed.sh",
+		"/C/Users/Karsin/WebstormProjects/NODE CMS BKP/public/javascripts/mongo-scripts/Mongo-Upload.js",
+		"/B/SandBox/practicalnode-master/ch7/blog-express/models/article.js",
+		"/B/SandBox/practicalnode-master/ch7/blog-express/app.js",
+		"/B/SandBox/practicalnode-master/ch7/blog-express/routes/index.js",
+		"/B/SandBox/practicalnode-master/ch7/blog-express/db/users.json",
+		"/B/SandBox/practicalnode-master/ch7/blog-express/routes/user.js",
+		"/C/Users/Karsin/WebstormProjects/Test/routes/users.js",
+		"/B/SandBox/practicalnode-master/ch7/gravatar.js",
+		"/B/SandBox/practicalnode-master/ch7/mongoose.js",
+		"/B/SandBox/practicalnode-master/ch5/mongo-native.js",
+		"/B/SandBox/practicalnode-master/ch7/blog-express/models/index.js",
+		"/B/SandBox/practicalnode-master/ch7/blog-express/views/index.jade",
+		"/B/SandBox/practicalnode-master/ch7/blog-express/models/user.js",
+		"/B/SandBox/ExpressTest/Test/package.json",
+		"/B/SandBox/ExpressTest/Test/routes/index.js",
+		"/B/SandBox/ExpressTest/Test/views/index.jade",
+		"/B/SandBox/ExpressTest/Test/config.js",
+		"/B/SandBox/practicalnode-master/ch5/mongo-native-insert.js",
+		"/B/SandBox/ExpressTest/Test/views/error.ejs",
+		"/B/SandBox/practicalnode-master/ch5/blog-express/views/index.jade",
+		"/B/SandBox/practicalnode-master/ch5/blog-express/routes/index.js",
+		"/B/SandBox/practicalnode-master/ch5/blog-express/app.js",
+		"/B/SandBox/practicalnode-master/ch5/blog-express/routes/article.js",
+		"/B/SandBox/practicalnode-master/ch5/blog-express/public/js/admin.js",
+		"/B/SandBox/practicalnode-master/ch5/blog-express/views/layout.jade",
+		"/B/SandBox/practicalnode-master/ch5/blog-express/views/admin.jade",
+		"/B/SandBox/practicalnode-master/ch5/blog-express/views/article.jade",
+		"/B/SandBox/practicalnode-master/ch5/blog-express/views/includes/menu.jade",
+		"/B/SandBox/mongo-express/app.js",
+		"/B/SandBox/Mongo-Express DB Viewer/app.js",
+		"/B/install.ini",
+		"/B/SandBox/ExpressTest/Test/routes/users.js",
+		"/B/SandBox/practicalnode-master/ch5/blog-express/routes/user.js",
+		"/B/SandBox/practicalnode-master/ch5/blog-express/views/login.jade",
+		"/B/SandBox/practicalnode-master/ch5/blog-express/package.json",
+		"/B/SandBox/practicalnode-master/ch5/blog-express/Makefile",
+		"/B/SandBox/practicalnode-master/ch6/start.sh",
+		"/B/SandBox/practicalnode-master/ch6/ch6-oauth.js",
+		"/B/SandBox/practicalnode-master/ch6/everyauth/app.js",
+		"/B/SandBox/practicalnode-master/ch6/everyauth/routes/article.js",
+		"/B/SandBox/practicalnode-master/ch6/everyauth/views/layout.jade",
+		"/B/SandBox/practicalnode-master/ch6/everyauth/views/admin.jade",
+		"/B/SandBox/practicalnode-master/ch6/everyauth/views/article.jade",
+		"/B/SandBox/practicalnode-master/ch6/everyauth/public/js/admin.js",
+		"/B/SandBox/practicalnode-master/ch6/everyauth/public/js/jquery-2.0.3.min.js",
+		"/B/SandBox/practicalnode-master/ch6/everyauth/public/js/blog.js",
+		"/B/SandBox/practicalnode-master/ch5/blog-express/public/js/blog.js",
+		"/B/SandBox/practicalnode-master/ch5/blog-express/db/seed.sh",
+		"/B/SandBox/practicalnode-master/ch5/blog-express/db/articles.json",
+		"/B/SandBox/practicalnode-master/ch5/blog-express/db/users.json"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"alert",
+			"[0-9]",
+			"/[0-9]/",
+			"/[0-9]\\",
+			"debugger;",
+			"error_reporting",
+			"$cfg['Servers'][$i]['auth_type']",
+			"extensions",
+			">",
+			"extensions"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Iris/Logistic Regression.py",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 5,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true
+}
