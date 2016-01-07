@@ -1,0 +1,6 @@
+[global]
+device = cpu
+floatX = float32
+
+[blas]
+ldflags= -LC:\\openblas -lopenblas
