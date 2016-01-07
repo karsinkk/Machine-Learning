@@ -4,3 +4,5 @@ MNIST/Data/
 .idea/
 Logistic Regression/
 untitled1.py
+_pycache_/
+terminal.glue
