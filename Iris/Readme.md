@@ -1,5 +1,6 @@
 # Instructions
 
+Pure Python Logistical Regression Implementation.
 
 Data can be obtained from "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
 
