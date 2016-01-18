@@ -16,7 +16,7 @@ ColNames = [
 
 train = pd.read_csv(path, names=ColNames)
 Y = train.Class.tolist()
-X = np.genfromtxt(path, delimiter=', ')
+X = np.genfromtxt(path, delimiter=',')
 
 # Cleaning the Data and generating params
 X = X[:, :-1]
@@ -29,7 +29,8 @@ y = np.hstack((
      np.matrix(list(map(lambda x: int(x == "Iris-versicolor"), Y))).T,
      np.matrix(list(map(lambda x: int(x == "Iris-virginica"), Y))).T
      ))
-theta = np.zeros((n, 3))
+k = y.shape[1]
+theta = np.zeros((n, k))
 lamb = .0001
 alpha = .15
 iter = 100
@@ -76,7 +77,7 @@ for k in range(0, y.shape[1]):
 path = CWD + "\Data\Iris.csv"
 test = pd.read_csv(path, names=ColNames)
 Y = test.Class.tolist()
-X = np.genfromtxt(path, delimiter=', ')
+X = np.genfromtxt(path, delimiter=',')
 
 X = X[:, :-1]
 m = X.shape[0]
@@ -93,13 +94,14 @@ Solution = np.argmax(Solution, axis=1)
 Y = sigmoid(X.dot(theta))
 Result = (np.argmax(Y, axis=1))
 
-# Result Analysis
+
+Result Analysis
 Comparison = np.concatenate((Result, Solution), axis=1)
 
 print("The Outcome is :\n", Comparison, "\n", Result.size)
 
 Accuracy = np.sum(
-    np.matrix(list(map(lambda x, x1: int(x == x1), Solution, Result)))
+    np.matrix(list(map(lambda x, y: int(x == y), Solution, Result)))
     ) / Result.size * 100
 
 print("\n Accuracy is : ", Accuracy, "%")
